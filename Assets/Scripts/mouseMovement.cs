@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class mouseMovement : MonoBehaviour
 {
 
     public float mouseSensitvity = 100f;

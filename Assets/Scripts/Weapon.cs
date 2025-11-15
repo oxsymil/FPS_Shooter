@@ -1,12 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.ShortcutManagement;
 using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
 
     public Camera playerCamera;
+    public playerMovement pm;
 
     public bool isShooting, readyToShoot;
     bool allowReset = true;
