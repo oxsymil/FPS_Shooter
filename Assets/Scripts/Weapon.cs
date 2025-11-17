@@ -60,7 +60,7 @@ public class Weapon : MonoBehaviour
 
     private void FireWeapon()
     {
-
+        // pm.activeChar.GetComponent<Animator>().Play("WalkBack_Shoot_AR");
         readyToShoot = false;
 
         Vector3 shootingDirection = CaluclateDirectionAndSpread().normalized;
