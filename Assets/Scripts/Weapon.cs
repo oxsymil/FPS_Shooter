@@ -10,6 +10,7 @@ public class Weapon : MonoBehaviour
     public Camera playerCamera;
     public playerMovement pm;
 
+
     public bool isShooting, readyToShoot;
     bool allowReset = true;
     public float shootingDelay = 2f;
